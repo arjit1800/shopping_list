@@ -15,6 +15,10 @@ function displayItems(){
 function onAddItemSubmit(e){
     e.preventDefault();
     let newItem = document.querySelector('.input-item').value;
+    if(newItem === ""){
+        alert("Please Enter Item");
+        return;
+    }
     if(ifItemExits(newItem)){
         alert("Item Already Exists");
     }
