@@ -1,0 +1,102 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.card{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.card h1{
+    font-size: 40px;
+}
+
+.add-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.add-item-wrapper input{
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-item-wrapper button{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.filter-panel{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-panel .filter-bar{
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.item-list-wrapper{
+    margin-top: 25px;
+}
+
+.item-list-wrapper ul{
+    padding: 0;
+}
+
+.item-list-wrapper li{
+    list-style: none;
+}
+
+.item-list-wrapper ul li{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.item-list-wrapper ul li button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.item-list-wrapper ul li button i{
+    color: red;
+}
+
+.clear-list{
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.edit-mode{
+    color: #ccc;
+}
